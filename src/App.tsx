@@ -1,11 +1,12 @@
-import logo from 'logo.svg';
 import './App.css';
+import { MainPage } from "./page/MainPage";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+
+export const Fas = FontAwesomeIcon;
 
 function App() {
   return (
-   <Router>
-
-   </Router>
+   <MainPage/>
   );
 }
 
